@@ -15,4 +15,11 @@ public class DemoController {
         return "Hello Spring and Docker";
     }
     
+
+    @GetMapping("new")
+    public String getHello2()
+    {
+        return "Hello Spring and Docker New";
+    }
+
 }
